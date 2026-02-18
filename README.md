@@ -65,5 +65,5 @@ log show --last 10m --predicate 'eventMessage CONTAINS "keylight-camera"' --styl
 launchctl bootout "gui/$(id -u)/com.local.keylight-camera"
 rm ~/Library/LaunchAgents/com.local.keylight-camera.plist
 rm ~/bin/keylight-camera-watcher.sh ~/bin/camera-in-use
-rm ~/Library/Caches/teams_keylight_state
+rm ~/Library/Caches/keylight_camera_state
 ```

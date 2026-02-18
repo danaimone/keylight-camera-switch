@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.local.teams-keylight</string>
+    <string>com.local.keylight-camera</string>
     <key>ProgramArguments</key>
     <array>
       <string>/bin/zsh</string>
-      <string>/Users/REPLACE_ME/bin/teams-keylight-watcher.sh</string>
+      <string>/Users/REPLACE_ME/bin/keylight-camera-watcher.sh</string>
     </array>
     <key>RunAtLoad</key><true/>
     <key>KeepAlive</key><true/>
-    <key>StandardOutPath</key><string>/tmp/teams-keylight.out</string>
-    <key>StandardErrorPath</key><string>/tmp/teams-keylight.err</string>
+    <key>StandardOutPath</key><string>/tmp/keylight-camera.out</string>
+    <key>StandardErrorPath</key><string>/tmp/keylight-camera.err</string>
   </dict>
 </plist>
